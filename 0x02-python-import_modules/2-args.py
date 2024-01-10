@@ -3,7 +3,7 @@ if __name__ == "__main__":
     from sys import argv
     tot = len(argv) - 1
     if tot < 1:
-        print("{} arguments:".format(tot))
+        print("{} arguments.".format(tot))
     elif tot == 1:
         print("{} argument:".format(tot))
     else:
