@@ -5,7 +5,7 @@ if __name__ == "__main__":
     if tot < 1:
         print("{} arguments:".format(tot))
     elif tot == 1:
-        print("{} arguments:".format(tot))
+        print("{} argument:".format(tot))
     else:
         print("{} arguments:".format(tot))
     for e in range(tot):
