@@ -3,5 +3,5 @@ if __name__ == "__main__":
     from hidden_4 import *
     na = dir()
     for e in range(0, len(na)):
-        if na[e] [:2] != "__":
+        if na[e][:2] != "__":
             print("{:s}".format(na[e]))
