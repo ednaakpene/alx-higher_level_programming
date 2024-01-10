@@ -5,4 +5,3 @@ if __name__ == "__main__":
     for e in range(1, len(argv)):
         tot += int(argv[e])
     print("{}".format(tot))
-
